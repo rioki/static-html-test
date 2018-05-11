@@ -1,0 +1,28 @@
+{
+  "name": "static-html-test",
+  "version": "1.0.0",
+  "description": "A static test site.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rioki/static-html-test.git"
+  },
+  "author": "Sean Farrell",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/rioki/static-html-test/issues"
+  },
+  "homepage": "https://github.com/rioki/static-html-test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-marked": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "mustache": "^2.3.0",
+    "static-server": "^2.2.1",
+    "through2": "^2.0.3"
+  }
+}
